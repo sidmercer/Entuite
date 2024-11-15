@@ -1,11 +1,14 @@
 import './App.css';
 import React from 'react';
 import HeroSection from './components/HeroSection';
+import AboutUs from './components/AboutUs';
+
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen">
+    <div className="bg-bgdarkblue min-h-screen">
       <HeroSection />
+      <AboutUs />
     </div>
   );
 }
