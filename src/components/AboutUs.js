@@ -10,7 +10,7 @@ const AboutUs = () => {
           <button className="text-customPink bg-customPink bg-opacity-10 font-manrope px-4 py-2 w-[140px] h-[45px] rounded-full">
             About Us
           </button>
-          <p className="custom-gradient-text text-[40px]  w-[600px] h-[225px] font-manrope leading-[44.8px] text-left">
+          <p className="custom-gradient-text text-[40px]   w-[600px] h-[225px] font-manrope leading-[44.8px] text-left">
             At Entuite, we are dedicated to delivering innovative solutions that
             empower businesses to thrive in today’s digital <br />
             landscape.

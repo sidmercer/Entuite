@@ -6,6 +6,9 @@ const HeroSection = () => {
       {/* Background Grid Lines */}
       <div className="absolute inset-0 bg-grid opacity-10 pointer-events-none"></div>
 
+      {/* blurry effect 1 */}
+      <div className="absolute transform -translate-x-1/2  w-[605px] h-[222px] top-[550px] left-[658px] bg-white opacity-[3%] rounded-full blur-[80px]"></div>
+          
       {/* Parent container for Navbar and Get a Quote Button */}
       <div className="flex items-center justify-center w-full mt-10 mb-16 ml-24 pl-16">
         
@@ -42,16 +45,16 @@ const HeroSection = () => {
 
 
       {/* CTA Button */}
-      <button className="mt-10 bg-pink-700 hover:bg-customPink text-white font-semibold py-3 px-8 rounded-full">
+      <button className="mt-10 bg-customPink text-white  text-[20px] font-semibold py-3 px-8 h-[72px] w-[356px] rounded-full">
         Talk to an Expert
       </button>
-
+      
       {/* Partner Logos */}
-      <div className="flex gap-8 mt-20 justify-center items-center flex-wrap">
-        <img src="/logos/investify.png" alt="Investify" className="h-8" />
-        <img src="/logos/knewish.png" alt="Knewish" className="h-8" />
-        <img src="/logos/upglam.png" alt="Upglam" className="h-8" />
-        <img src="/logos/nutrilix.png" alt="Nutrilix" className="h-8" />
+      <div className="flex gap-8 mt-20 w-[5834.08px] h-[68px] top-[865px] left-[-2238.04px] justify-center items-center flex-wrap">
+        <img src="/logos/investify.png" alt="Investify" className="h-[55.01px] w[309.63px] Top-[6.56px] Left-[764.93px]" />
+        <img src="/logos/knewish.png" alt="Knewish" className="h-[45.37px] w[300.48px] Top-[11.25px] Left-[1146.08px]" />
+        <img src="/logos/upglam.png" alt="Upglam" className="h-[64.22px] w[295.96px] Top-[1.89px] Left-[1516.17px]" />
+        <img src="/logos/nutrilix.png" alt="Nutrilix" className="h-[47.83px] w[291.32px] Top-[9.86px] Left-[1879.67px]" />
       </div>
     </section>
   );
