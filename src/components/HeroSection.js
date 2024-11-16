@@ -44,7 +44,7 @@ const HeroSection = () => {
 </p>
 
 
-      {/* CTA Button */}
+      {/* TTE Button */}
       <button className="mt-10 bg-customPink text-white  text-[20px] font-semibold py-3 px-8 h-[72px] w-[356px] rounded-full">
         Talk to an Expert
       </button>
