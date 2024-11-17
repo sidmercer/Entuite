@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-bgdarkblue flex flex-col text-white py-10 px-8">
+    <section className="bg-bgdarkblue flex flex-col w-1440px text-white py-10 px-8">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row lg:items-center">
 
         {/* Left Section: Text */}
