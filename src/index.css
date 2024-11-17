@@ -20,3 +20,13 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
