@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="flex items-center justify-center w-full mt-10 mb-16 ml-24 pl-16">
         
         {/* Navbar */}
-        <nav className="bg-black bg-opacity-20 rounded-full px-8 py-2  flex items-center justify-center w-[585px] h-[60px] shadow-lg border border-gray-800 ml-24">
+        <nav className=" bg-[rgba(255,2,94,0.02)]  rounded-full px-8 py-2  flex items-center justify-center w-[585px] h-[60px] shadow-lg border border-gray-800 ml-24">
           <ul className="flex space-x-8 text-white font-semibold">
             <li><a href="#Home" className="hover:text-pink-500">Home</a></li>
             <li><a href="#About" className="hover:text-pink-500">About Us</a></li>
