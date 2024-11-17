@@ -25,7 +25,7 @@ const OurServices = () => {
         {/* Main Card */}
         <div className=" top-[265px] left-[697px] rounded-xl mt-14 flex flex-col items-center justify-center">
           <img
-            src="/Assets/uiux design.png"
+            src="/Assets/uiuxdesign.png"
             alt="UI/UX Icon"
             className="w-[503px] h-[520px]  mb-6 mt-6"
           />
