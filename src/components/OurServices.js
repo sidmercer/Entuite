@@ -35,8 +35,8 @@ const OurServices = () => {
         {/* Tilted bottom Card  */}
         <div className="mt-20 rounded-xl transform rotate-10  ">
         <img
-            src="/Assets/bottomdesign.png"
-            alt="UI/UX Icon"
+            src="\Assets\bottomDesign.png"
+            alt="bottomcard"
             className="w-[587px] h-[164px]"
           />
         </div>
