@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-bgdarkblue flex flex-col w-1440px text-white py-10 px-8">
+    <section className="bg-bgdarkblue flex flex-col w-full text-white py-10 px-4 md:px-8 ">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row lg:items-center">
 
         {/* Left Section: Text */}
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <button className="text-customPink bg-customPink bg-opacity-10 font-manrope px-4 py-2 w-[140px] h-[45px] rounded-full">
             About Us
           </button>
-          <p className="custom-gradient-text text-[40px]   w-[600px] h-[225px] font-manrope leading-[44.8px] text-left">
+          <p className="custom-gradient-text text-2xl md:text-[40px] w-full lg:w-[600px] h-[225px] font-manrope leading-normal md:leading-[44.8px] text-left">
             At Entuite, we are dedicated to delivering innovative solutions that
             empower businesses to thrive in today’s digital <br />
             landscape.
@@ -18,18 +18,18 @@ const AboutUs = () => {
         </div>
 
         {/* Right Section: Stats */}
-        <div className="w-[503px] h-[479px] pl-6 pt-16 border-opacity-0 flex flex-col p-4">
+        <div className="w-full h-auto pl-0 lg:pl-6 pt-16 pb-14  border-opacity-0 flex flex-col p-4">
           <div className="flex items-center w-[367px] h-[109px] top-[1123px] left-[840px] pt-4">
-            <span className="text-5xl font-bold">250+</span>
-            <span className="text-lg pl-6">Satisfied Clients</span>
+            <span className="text-4xl md:text-5xl font-bold">250+</span>
+            <span className="text-base md:text-lg pl-6">Satisfied Clients</span>
           </div>
           <div className="flex items-center  w-[503px] h-[133px] top-[1196px] left-[837px]  border-t border-gray-700 pt-4">
-            <span className="text-5xl font-bold">500+</span>
-            <span className="text-lg pl-6">Projects Finished</span>
+            <span className="text-4xl md:text-5xl font-bold">500+</span>
+            <span className="text-base md:text-lg pl-6">Projects Finished</span>
           </div>
           <div className="flex items-center w-[503px] h-[133px] top-[1469px] left-[837px]  border-t border-gray-700 pt-4">
-            <span className="text-5xl font-bold">10+</span>
-            <span className="text-lg pl-14">Years of Experience</span>
+            <span className="text-4xl md:text-5xl font-bold">10+</span>
+            <span className="text-base md:text-lg pl-14">Years of Experience</span>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const AboutUs = () => {
         <img
           src="/logos/abtus.jpg"
           alt="About Us"
-          className="w-[1240px] h-[549px] top-[1662px] left-[100px] rounded-tl-lg border-t border-gray-700 opacity-100"
+          className="w-full lg:w-[1240px] h-auto top-[1662px] left-[100px] rounded-tl-lg border-t border-gray-700 opacity-100"
         />
       </div>
 
