@@ -91,7 +91,7 @@ const FAQ = () => {
         </div>
         
             <div className="relative z-10 top-4 text-center text-white flex flex-col items-center gap-4">
-          <p className="text-sm uppercase text-gray-400">start a Project</p>
+          <p className="text-sm uppercase text-white">start a Project</p>
           <h1 className="text-4xl md:text-6xl w-[525px] h-[60px] font-semibold">Let’s work together</h1>
          
           <button className="mt-4  w-[250px] h-[52px]  bg-white text-[#FF007A] font-bold rounded-full shadow-md hover:shadow-lg hover:opacity-100">
