@@ -29,7 +29,7 @@ const ProductCard = ({ image, alt, title, description }) => {
 
 const Products = () => {
   return (
-    <section>
+    <section className="overflow-hidden">
       <section className="relative bg-bgdarkblue text-white w-1440px pb-20 flex items-center justify-center">
         <div className=" text-white  ">
           {/* Section Title */}

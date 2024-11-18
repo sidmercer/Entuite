@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurServices = () => {
   return (
-    <section className="relative bg-bgdarkblue text-white w-full  px-4 md:px-8 flex items-center justify-center">
+    <section className="relative overflow-hidden bg-bgdarkblue text-white w-full  px-4 md:px-8 flex items-center justify-center">
       {/* Left Section: Title */}
       <div className=" w-full  max-w-6xl mx-auto opacity-25">
         <h2 className=" text-left text-4xl sm:text-6xl md:text-[80px] lg:text-[120px] font-bold custom-gradient-text font-manrope">Our <br></br>Services</h2>

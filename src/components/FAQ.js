@@ -36,7 +36,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="bg-bgdarkblue text-white w-full pb-96 py-20 px-6">
+    <section className="bg-bgdarkblue text-white w-full pb-96 py-20 px-6 overflow-hidden">
       <div className="max-w-[1240px] mx-auto">
         {/* Title */}
         <h2 className="text-4xl md:text-6xl font-semibold font-manrope custom-gradient-text text-left  mt-10 mb-10">

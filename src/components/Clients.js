@@ -2,7 +2,7 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <section className="relative bg-bgdarkblue h-auto text-white w-full py-20 pb-52  px-6">
+    <section className="relative overflow-hidden bg-bgdarkblue h-auto text-white w-full py-20 pb-52  px-6">
   {/* Section Title */}
   <div className="text-left max-w-[1240px] mx-auto  mb-28 px-4">
     <h2 className="text-5xl md:text-6xl font-manrope font-semibold custom-gradient-text">
