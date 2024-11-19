@@ -2,18 +2,18 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center w-1440px text-center pb-20  bg-bgdarkblue text-white relative overflow-hidden">
+    <section className="flex flex-col items-center w-1440px text-center pb-20 -mt-48  bg-bgdarkblue text-white relative overflow-hidden">
       {/* Background Grid Lines */}
       <div className="absolute inset-0 bg-grid opacity-10 pointer-events-none"></div>
 
       {/* blurry effect 1 */}
-      <div className="absolute transform -translate-x-1/2  w-[300px] md:w-[605px] h-[150px] md:h-[222px] top-[550px] left-[658px] bg-white opacity-[3%] rounded-full blur-[80px]"></div>
+      <div className="relative transform -translate-x-1/2  w-[300px] md:w-[605px] h-[150px] md:h-[222px] top-[800px] left-[300px] bg-white opacity-[3%] rounded-full blur-[80px]"></div>
           
       {/* Parent container for Navbar and Get a Quote Button */}
-      <div className="flex flex-wrap items-center justify-center w-full mt-10 mb-16 px-4 md:px-16">
+      <div className="flex flex-wrap items-center justify-center w-full relative  md:left-32 mt-10 mb-16 px-4 md:px-16">
         
         {/* Navbar */}
-        <nav className=" bg-[rgba(255,2,94,0.02)]  rounded-full px-4 md:px-8 py-2  flex items-center justify-center w-[585px] h-[60px] shadow-lg border border-gray-800 md:ml-64 ">
+        <nav className=" bg-[rgba(255,2,94,0.02)]  rounded-full px-4 md:px-8 py-2  flex items-center justify-center w-[585px] h-[60px] shadow-lg border border-gray-800  ">
           <ul className="flex flex-wrap space-x-4 md:space-x-8 text-white text-sm md:text-base font-semibold">
             <li><a href="#Home" className="hover:text-pink-500">Home</a></li>
             <li><a href="#About" className="hover:text-pink-500">About Us</a></li>
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </nav>
         
         {/* Get a Quote Button */}
-        <button className="w-full md:w-[209px] h-[60px] text-customPink font-semibold rounded-full border border-customPink hover:bg-customPink hover:text-white transition duration-200   md:mt-0 md:ml-16">
+        <button className=" sm:w-[150px] md:w-[209px] h-[60px] text-customPink font-semibold rounded-full border border-customPink hover:bg-customPink hover:text-white transition duration-200   md:mt-0 md:ml-16">
           Get a Quote
         </button>
       </div>

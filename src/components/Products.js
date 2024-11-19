@@ -33,17 +33,17 @@ const Products = () => {
       <section className="relative bg-bgdarkblue text-white w-1440px pb-20 flex items-center justify-center">
         <div className=" text-white  ">
           {/* Section Title */}
-          <div className="w-[1262px] h-[224px]  opacity-25 relative ">
-            <h2 className="text-[200px] font-semibold  custom-gradient-text font-manrope  -ml-9">
+          <div className="w-[1262px] h-[224px] left-[410px] top-4 opacity-25 relative ">
+            <h2 className="text-[200px] font-semibold  custom-gradient-text font-manrope  ">
               Our Product
             </h2>
-          </div>
-
-          {/* blurry effect of product */}
-          <div className="absolute transform -translate-x-1/2  w-[866px] h-[607px] top-[100px] left-[700px]  bg-white opacity-[10%] rounded-full blur-[80px]"></div>
-
+          </div> 
+          
           {/* Cards Container */}
-          <div className="flex gap-8 -mt-3 justify-center">
+          <div className="flex  gap-8 relative right-[450px] justify-center">
+        {/* blurry effect of product */}
+          <div className="relative transform z-0   w-[866px] h-[500px] top-[20px] left-[1100px]  bg-white opacity-[10%] rounded-full blur-[80px]"></div>
+
             <ProductCard
               image="/Assets/p1.png"
               alt="ENTUITE SMS Solutions"
@@ -67,9 +67,7 @@ const Products = () => {
       </section>
 
       <section className="relative bg-bgdarkblue text-white w-1440px pb-20">
-        {/* blurry effect of why choose us */}
-        <div className="absolute inset-0 z-0 transform -translate-x-1/2  w-[880px] h-[630px] top-[110px] left-[700px]  bg-white opacity-[2%] rounded-full blur-[80px]"></div>
-
+       
         <div className="w-[1240px] h-[829px] mx-auto mt-10  text-white ">
           {/* why choose us */}
           <h2 className="text-6xl w-[481px] h-[67px]  font-semibold mb-8 custom-gradient-text text-center">
@@ -77,7 +75,10 @@ const Products = () => {
           </h2>
 
           {/* Cards Container */}
-          <div className="flex flex-wrap gap-6 justify-center z-10 items-start">
+          <div className="flex flex-wrap gap-6 justify-center z-10 -top-[640px] relative items-start">
+             {/* blurry effect of why choose us */}
+        <div className=" relative inset-0 z-0 transform -translate-x-1/2  w-[880px] h-[630px] top-[700px] left-[450px]  bg-white opacity-[2%] rounded-full blur-[80px]"></div>
+
             {/* Card 1 */}
             <div className="w-full md:w-[608px] h-[450px] border border-gray-400 rounded-3xl p-6 flex flex-col relative">
               {/* Pink Blur Effect */}

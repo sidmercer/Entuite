@@ -24,7 +24,7 @@ const IndustriesSection = () => {
     }
   };
   return (
-    <section className="w-1440px h-[840px] overflow-hidden bg-bgdarkblue text-white text-center">
+    <section className="w-1440px h-[900px] overflow-hidden bg-bgdarkblue mb-20 text-white text-center">
       <div className="opacity-100">
         <div class="flex items-center justify-center mt-60 mb-10 bg-[#0B0917]">
           <button class="flex items-center gap-2 px-6 py-3 rounded-full bg-[#212027] border-2 border-[#484652] text-white font-manrope">
@@ -130,10 +130,10 @@ const IndustriesSection = () => {
         </div>
 
         {/* buttons left and right  */}
-        <div className="flex justify-center gap-4 mt-10">
+        <div className="flex justify-center gap-4  mt-10">
           <button
             onClick={scrollLeft}
-            className=" rounded-full  hover:bg-yellow-200 hover:size-12 transition flex items-center justify-center"
+            className=" rounded-full  hover:bg-white hover:size-12 transition flex items-center justify-center"
           >
             <img
               src="\Assets\ArrowCircleLeft.png"
@@ -143,7 +143,7 @@ const IndustriesSection = () => {
           </button>
           <button
             onClick={scrollRight}
-            className=" rounded-full  hover:bg-yellow-200 hover:size-12 transition flex items-center justify-center"
+            className=" rounded-full  hover:bg-white hover:size-12 transition flex items-center justify-center"
           >
             <img
               src="\Assets\ArrowCircleRight.png"
